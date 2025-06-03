@@ -1,11 +1,55 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Menu Fixado</title>
+    <title>Menu Simples</title>
+
+    <style>
+        .navbar{
+            overflow: hidden;
+            background-color: rgb(32, 184, 52);
+            position: fixed;
+            top: 0;
+            width: 100%;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 18px;
+            line-height: 1.5;
+        }
+
+        .navbar a{
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 15px 50px;
+            text-decoration: none;
+        }
+
+        .navbar a:hover {
+            background-color:rgb(255, 255, 255);
+            color: rgb(32, 184, 52);
+        }
+    </style>
+
 </head>
+
 <body>
-    
+
+    <div class="navbar">
+        <a href="#home">home</a>
+        <a href="#news">Notícias</a>
+        <a href="#contact">Contato</a>
+    </div>
+
+    <div class="main">
+        <h1> MENU FIXADO</h1>
+        <h2> Role a página para ver o efeito </h2>
+        <p>  </p>
+    </div>
+
 </body>
+
 </html>
