@@ -1,15 +1,58 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
+<link rel="stylesheet" href="menufixado.html">
+<link rel="stylesheet" href="submenu.html">
+<link rel="stylesheet" href="menusimples.html">
+<link rel="stylesheet" href="index.html">
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Menu Responsivo</title>
+    <style>
+        @media screen and (max-width:600px) {
+            nav a {
+                float: none;
+                text-aling: center;
+                font-size: 25px;
+            }
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f4f4f4;
+        }
+
+        nav {
+            background-color: rgb(32, 184, 52);
+            overflow: hidden;
+            text-align: center;
+        }
+
+        nav a {
+            display: block;
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            float: left;
+        }
+
+        nav a:hover {
+            background-color: rgb(196, 243, 202);
+            color: black;
+        }
+
+        .principal {
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
 </head>
 
 <body>
     <nav>
-        <a href=" #home "> Home </a>
+        <a href="index.html"> Home </a>
         <a href=" #sobre "> Sobre </a>
         <a href=" #servicos "> Serviços </a>
         <a href=" #contato "> Contato </a>
